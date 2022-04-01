@@ -1,0 +1,120 @@
+@font-face {
+  font-family: fonting;
+
+  src: url(Hurricane-Regular.ttf);
+}
+@font-face {
+  font-family: fonting2;
+  src: url(Raleway-VariableFont_wght.ttf);
+}
+body {
+  margin: 0px;
+}
+.sitename {
+  font-family: fonting;
+  height: 170px;
+  font-size: 100px;
+  background-image: url("header.jpg");
+  text-align: center;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.w1 {
+  height: 400px;
+  width: 400px;
+  float: left;
+  margin-right: 80px;
+  font-family: fonting2;
+  margin-left: 80px;
+}
+.w2 {
+  float: left;
+  margin-right: 80px;
+  font-family: fonting2;
+}
+.w3 {
+  margin-left: 40px;
+  font-family: fonting2;
+}
+.w4 {
+  float: left;
+  margin-left: -500px;
+  margin-right: 80px;
+  margin-top: 80px;
+  font-family: fonting2;
+}
+.w5 {
+  float: left;
+  margin-right: 200px;
+  margin-top: 80px;
+  font-family: fonting2;
+}
+.w6 {
+  margin-top: 80px;
+  font-family: fonting2;
+}
+
+.footer {
+  margin-top: 600px;
+  font-family: fonting;
+  background-color: rgba(243, 208, 7, 0.753);
+  height: 200px;
+}
+.footer pre {
+  font-family: fonting2;
+  float: left;
+  margin-left: 100px;
+}
+.mens {
+  margin-right: 150px;
+  font-size: 25px;
+  color: aliceblue;
+  text-decoration: none;
+  transition: 1s;
+  padding-left: 10px;
+  font-family: fonting2;
+}
+.mens:hover {
+  font-size: 30px;
+
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1);
+}
+.navbar {
+  background-color: rgba(255, 166, 0, 0.685);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.cf img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  margin-top: 80px;
+}
+
+.cf img.top:hover {
+  opacity: 0;
+  margin-top: 80px;
+}
+button {
+  height: 20px;
+  width: 20px;
+  box-shadow: 8px;
+  border-color: aqua;
+}
+.submit {
+  width: 100px;
+}
+.pay {
+  height: 70px;
+  width: 70px;
+  margin-left: 700px;
+  margin-top: 50px;
+}
